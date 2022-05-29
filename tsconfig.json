@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "ESNext" ,
+    "esModuleInterop": true,
+    "target": "es6",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "./",
+    "declaration": true,
+    "declarationDir": "types",
+    "allowJs": true,             
+    "lib": [
+      "es2015",
+      "es2016",
+      "es2017",
+      "es2021.intl",
+      "DOM"
+    ],           
+  },
+    "include": [
+      "src/**/*.ts",
+      "src/*.ts",
+      "index.ts" 
+    ],
+    "exclude": [
+      "node_modules",
+      "dist",
+      "src/tests/providers/*.test.ts"
+    ]
+}
+  
